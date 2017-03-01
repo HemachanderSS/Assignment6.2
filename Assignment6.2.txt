@@ -1,0 +1,64 @@
+1.MapReduce program is needed in Pig Programming:
+	*In pig the queries are converted into map reduce programs as hadoop is a java based
+system and understand only java based map reduce programs.
+	*It has ability to perform computations in pig which cannot be done in mapreduce.
+	
+
+2.Advantages of Pig over MapReduce:
+	*It laids a way for non java programmers to get a chance on work in data analytics
+based projects.
+	*Decrease in development time whereas in mapreduce jobs are complexity, more time 
+spent and needed maintenance of the programs.
+	*It uses all the hadoop offers like parellelization, fault-tolerancy and many 
+relational database features.
+	*It is tool process the large unstructured data to structured data.
+	*It doesn't need to import any library packages.
+	*Ir is a procedural approach, so we can control the execution of every step.
+	
+
+
+3.Pig Engine:
+	Apache Pig has a component known as pig engine which accepts the pig latin scripts
+and converts those scripts into mapreduce jobs.
+
+*Importance:
+	*It acts as an interpreter between the pig latin script and mapreduce jobs.
+	*It creates environment to execute pig scripts into series of mapreduce jobs in 
+parallel manner.
+
+
+4.Modes of pig execution:
+	2 modes of pig execution are
+	
+	1.Local mode:
+		In this mode, you can run the pig to access to a single machine where all
+the files are stored in local file system.
+	2.MapReduce mode:
+		In this mode, you can run the pig to access to a hadoop cluster and hdfs 
+installation.
+
+
+5.Grunt shell in pig:
+	*It is an interactive shell for executing pig commands.
+	*It is used when scripts file is not provided.
+	*It can execute scripts from Grunt via run or exec commands.
+
+6.Features of pig latin language:
+	*It provides many operations to perform operations such as join, sort, filter etc.
+	*It is similar to SQL and it is easy to write Pig Script if you have good knowledge
+in SQL.
+	*The tasks in Apache Pig optimize their execution automatically.
+	*Using the existing operators users can develop their own functions.
+	*It provides the facility to create user-defined functions in other programming 
+languages such as Java and invoke then in pig scripts.
+
+
+7. Is Pig Latin commands case sensitive:
+	*The names of relations and fields are case sensitive.
+	*The names of the pig latin functions are also case sensitive.
+	*The names of parameters and all other pig latin keywords are case insensitive.
+
+8. Data flow language:
+	*A data flow language is one which can be represented as a directed graph with a
+specific flow of data through the programme following the data flow priniciples and 
+architecture rules laid on them.
